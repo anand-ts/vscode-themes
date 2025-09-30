@@ -1,0 +1,59 @@
+{
+  "name": "selecta-mea-themes",
+  "displayName": "Selecta Mea Themes",
+  "description": "A curated collection of 8 professionally designed themes with dark and light variants",
+  "publisher": "selecta-mea",
+  "version": "1.0.0",
+  "engines": { "vscode": "^1.84.0" },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "light", "chatgpt", "iceberg", "darcula", "monokai", "solarized"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selecta-mea/vscode-themes.git"
+  },
+  "icon": "images/SCR-20250930-cmsg.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "ChatGPT Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./chatgpt-theme-dark.json"
+      },
+      {
+        "label": "ChatGPT Theme (Light)",
+        "uiTheme": "vs",
+        "path": "./chatgpt-theme-light.json"
+      },
+      {
+        "label": "Iceberg Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./iceberg-theme-dark.json"
+      },
+      {
+        "label": "Iceberg Theme (Light)",
+        "uiTheme": "vs",
+        "path": "./iceberg-theme-light.json"
+      },
+      {
+        "label": "Darcula",
+        "uiTheme": "vs-dark",
+        "path": "./darcula-theme-dark.json"
+      },
+      {
+        "label": "Monokai Space Gray — Polished",
+        "uiTheme": "vs-dark",
+        "path": "./monokai-space-gray-theme-dark.json"
+      },
+      {
+        "label": "Monokai Solarized Light — Polished",
+        "uiTheme": "vs",
+        "path": "./monokai-solarized-light-theme-light.json"
+      },
+      {
+        "label": "Light Modern (Plus)",
+        "uiTheme": "vs",
+        "path": "./light-modern-plus-theme-light.json"
+      }
+    ]
+  }
+}
