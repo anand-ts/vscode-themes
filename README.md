@@ -2,6 +2,8 @@
 
 > _Latin: selecta mea — “my selections”._
 
+![Thumbnail](./public/images/selecta_mea.png)
+
 A collection of 8 professionally and passionately designed themes with dark and light variants.
 
 ## Code Snippets
