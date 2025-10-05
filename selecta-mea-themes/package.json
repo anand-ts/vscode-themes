@@ -1,12 +1,12 @@
 {
   "name": "selecta-mea-themes",
   "displayName": "Selecta Mea Themes",
-  "description": "A curated collection of 8 professionally designed themes with dark and light variants",
+  "description": "A curated collection of 11 professionally designed themes with dark and light variants",
   "publisher": "selecta-mea",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "engines": { "vscode": "^1.84.0" },
   "categories": ["Themes"],
-  "keywords": ["theme", "dark", "light", "chatgpt", "iceberg", "darcula", "monokai", "solarized"],
+  "keywords": ["theme", "dark", "light", "chatgpt", "claude", "catppuccin", "iceberg", "darcula", "monokai", "solarized"],
   "repository": {
     "type": "git",
     "url": "https://github.com/selecta-mea/vscode-themes.git"
@@ -23,6 +23,21 @@
         "label": "ChatGPT Theme (Light)",
         "uiTheme": "vs",
         "path": "./chatgpt-theme-light.json"
+      },
+      {
+        "label": "Claude Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./claude-theme-dark.json"
+      },
+      {
+        "label": "Claude Theme (Light)",
+        "uiTheme": "vs",
+        "path": "./claude-theme-light.json"
+      },
+      {
+        "label": "Catppuccin Mocha Affogato",
+        "uiTheme": "vs-dark",
+        "path": "./catppuccin-mocha-affogato-theme-dark.json"
       },
       {
         "label": "Iceberg Theme (Dark)",

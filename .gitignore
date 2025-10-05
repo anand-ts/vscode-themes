@@ -1,6 +1,8 @@
 # Theme JSON Files (Secret - Do Not Share)
 **/*-theme-*.json
 **/chatgpt-theme-*.json
+**/claude-theme-*.json
+**/catppuccin-*.json
 **/iceberg-theme-*.json
 **/darcula-theme-*.json
 **/monokai-*.json
@@ -8,6 +10,12 @@
 
 # Keep only the compiled VSIX
 # *.vsix
+
+# Testing directory (old versions)
+testing/
+
+# Legacy directory (old themes)
+legacy/
 
 # Node modules
 node_modules/

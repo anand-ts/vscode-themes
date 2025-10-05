@@ -65,6 +65,10 @@ A collection of 8 professionally and passionately designed themes with dark and 
 
 Distributed as a pre-compiled VSIX package.
 
+## License
+
+MIT License - Free to use, modify, and distribute. See LICENSE file for details.
+
 ---
 
 Version 1.0.0 (Fall 2025)
