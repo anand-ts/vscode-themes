@@ -55,7 +55,7 @@ A collection of 8 professionally and passionately designed themes with dark and 
 
 ## Installation
 
-1. Download `selecta-mea-themes-1.0.0.vsix`
+1. Download `selecta-mea-themes-2.1.2.vsix`
 2. Open VS Code
 3. Press `Cmd+Shift+P` or `Ctrl+Shift+P`
 4. Type "Install from VSIX"
@@ -71,4 +71,4 @@ MIT License - Free to use, modify, and distribute. See LICENSE file for details.
 
 ---
 
-Version 1.0.0 (Fall 2025)
+Version 2.1.2 (Fall 2025)
