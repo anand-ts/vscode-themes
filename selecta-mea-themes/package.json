@@ -3,7 +3,7 @@
   "displayName": "Selecta Mea Themes",
   "description": "A curated collection of 11 professionally designed themes with dark and light variants",
   "publisher": "selecta-mea",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "engines": { "vscode": "^1.84.0" },
   "categories": ["Themes"],
   "keywords": ["theme", "dark", "light", "chatgpt", "claude", "catppuccin", "iceberg", "darcula", "monokai", "solarized"],
