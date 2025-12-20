@@ -4,47 +4,67 @@
 
 ![Thumbnail](./public/images/selecta_mea.png)
 
-A collection of 8 professionally and passionately designed themes with dark and light variants.
+A collection of 13 professionally and passionately designed themes with dark and light variants.
 
 ## Code Snippets
 
-### Iceberg Theme (Light)
-![Iceberg Theme Light](./public/images/SCR-20250930-cmsg.png)
+### Bubblegum (Dark) [new theme in ver. 3!]
+![Bubblegum Dark](./public/images/bubblegum-dark.png)
 
-### ChatGPT Theme (Light)
-![ChatGPT Light](./public/images/SCR-20250930-cmub.png)
-
-### Light Modern (Plus)
-![Light Modern Plus](./public/images/SCR-20250930-cmwn.png)
-
-### Monokai Solarized Light — Polished 
-![Monokai Solarized Light](./public/images/SCR-20250930-cnar.png)
+### Catppuccin Mocha Affogato
+![Catppuccin Mocha Affogato](./public/images/catppuccin-mocha-affogato.png)
 
 ### ChatGPT Theme (Dark)
-![ChatGPT Theme Dark](./public/images/SCR-20250930-cndh.png)
+![ChatGPT Theme Dark](./public/images/chatgpt-theme-dark.png)
+
+### Claude Theme (Dark)
+![Claude Theme Dark](./public/images/claude-theme-dark.png)
 
 ### Darcula
-![Darcula](./public/images/SCR-20250930-cnfe.png)
+![Darcula](./public/images/darcula.png)
 
 ### Iceberg Theme (Dark)
-![Iceberg Theme Dark](./public/images/SCR-20250930-cngr.png)
+![Iceberg Theme Dark](./public/images/iceberg-theme-dark.png)
 
 ### Monokai Space Gray — Polished
-![Monokai Space Gray](./public/images/SCR-20250930-cnii.png)
+![Monokai Space Gray](./public/images/monokai-space-gray.png)
+
+### ChatGPT Theme (Light)
+![ChatGPT Light](./public/images/chatgpt-theme-light.png)
+
+### Claude Theme (Light)
+![Claude Theme Light](./public/images/claude-theme-light.png)
+
+### Desert Solarized (Light) [new theme in ver. 3!]
+![Desert Solarized Light](./public/images/desert-solarized-light.png)
+
+### Iceberg Theme (Light)
+![Iceberg Theme Light](./public/images/iceberg-theme-light.png)
+
+### Light Modern (Plus)
+![Light Modern Plus](./public/images/light-modern-plus.png)
+
+### Monokai Solarized Light — Polished
+![Monokai Solarized Light](./public/images/monokai-solarized-light.png)
 
 ## Themes
 
-### Dark (5)
+### Dark (7)
+- Bubblegum (Dark)
+- Catppuccin Mocha Affogato
 - ChatGPT Theme (Dark)
-- Iceberg Theme (Dark)
+- Claude Theme (Dark)
 - Darcula
+- Iceberg Theme (Dark)
 - Monokai Space Gray — Polished
-- Monokai Solarized Light — Polished
 
-### Light (3)
+### Light (6)
 - ChatGPT Theme (Light)
+- Claude Theme (Light)
+- Desert Solarized (Light)
 - Iceberg Theme (Light)
 - Light Modern (Plus)
+- Monokai Solarized Light — Polished
 
 ## Features
 
@@ -55,7 +75,7 @@ A collection of 8 professionally and passionately designed themes with dark and 
 
 ## Installation
 
-1. Download `selecta-mea-themes-2.1.2.vsix`
+1. Download `selecta-mea-themes-3.0.0.vsix`
 2. Open VS Code
 3. Press `Cmd+Shift+P` or `Ctrl+Shift+P`
 4. Type "Install from VSIX"
@@ -67,8 +87,8 @@ Distributed as a pre-compiled VSIX package.
 
 ## License
 
-MIT License - Free to use, modify, and distribute. See LICENSE file for details.
+MIT License
 
 ---
 
-Version 2.1.2 (Fall 2025)
+Version 3.0.0 (Fall 2025)

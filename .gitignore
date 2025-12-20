@@ -7,6 +7,7 @@
 **/darcula-theme-*.json
 **/monokai-*.json
 **/light-modern-*.json
+**/desert-solarized-light-theme.json
 
 # Keep only the compiled VSIX
 # *.vsix
