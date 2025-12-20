@@ -3,7 +3,7 @@
   "displayName": "Selecta Mea Themes",
   "description": "A curated collection of 12 professionally designed themes with dark and light variants",
   "publisher": "selecta-mea",
-  "version": "2.5.0",
+  "version": "3.0.0",
   "engines": { "vscode": "^1.84.0" },
   "categories": ["Themes"],
   "keywords": ["theme", "dark", "light", "chatgpt", "claude", "catppuccin", "iceberg", "darcula", "monokai", "solarized", "bubblegum", "pink"],
@@ -73,6 +73,11 @@
         "label": "Bubblegum (Dark)",
         "uiTheme": "vs-dark",
         "path": "./bubblegum-theme-dark.json"
+      },
+      {
+        "label": "Desert Solarized (Light)",
+        "uiTheme": "vs",
+        "path": "./desert-solarized-light-theme.json"
       }
     ]
   }
