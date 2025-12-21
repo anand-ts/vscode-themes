@@ -75,6 +75,11 @@
         "path": "./bubblegum-theme-dark.json"
       },
       {
+        "label": "Bubblegum (Light)",
+        "uiTheme": "vs",
+        "path": "./bubblegum-theme-light.json"
+      },
+      {
         "label": "Desert Solarized (Light)",
         "uiTheme": "vs",
         "path": "./desert-solarized-light-theme.json"
