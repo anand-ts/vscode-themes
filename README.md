@@ -2,9 +2,10 @@
 
 > _Latin: selecta mea — “my selections”._
 
-![Thumbnail](./public/images/selecta_mea.png)
+![Thumbnail](./public/images/themes-dark.png)
+![Thumbnail](./public/images/themes-light.png)
 
-A collection of 13 professionally and passionately designed themes with dark and light variants.
+A collection of 14 professionally and passionately designed themes with dark and light variants.
 
 ## Code Snippets
 
@@ -28,6 +29,9 @@ A collection of 13 professionally and passionately designed themes with dark and
 
 ### Monokai Space Gray — Polished
 ![Monokai Space Gray](./public/images/monokai-space-gray.png)
+
+### Bubblegum (Light) [new theme in ver. 3!]
+![Bubblegum Light](./public/images/bubblegum-light.png)
 
 ### ChatGPT Theme (Light)
 ![ChatGPT Light](./public/images/chatgpt-theme-light.png)
@@ -58,7 +62,8 @@ A collection of 13 professionally and passionately designed themes with dark and
 - Iceberg Theme (Dark)
 - Monokai Space Gray — Polished
 
-### Light (6)
+### Light (7)
+- Bubblegum (Light)
 - ChatGPT Theme (Light)
 - Claude Theme (Light)
 - Desert Solarized (Light)
