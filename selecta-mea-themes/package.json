@@ -1,12 +1,12 @@
 {
   "name": "selecta-mea-themes",
   "displayName": "Selecta Mea Themes",
-  "description": "A curated collection of 12 professionally designed themes with dark and light variants",
+  "description": "A curated collection of 16 professionally designed themes with dark and light variants",
   "publisher": "selecta-mea",
-  "version": "3.0.3",
+  "version": "3.1.0",
   "engines": { "vscode": "^1.84.0" },
   "categories": ["Themes"],
-  "keywords": ["theme", "dark", "light", "chatgpt", "claude", "catppuccin", "iceberg", "darcula", "monokai", "solarized", "bubblegum", "pink"],
+  "keywords": ["theme", "dark", "light", "chatgpt", "claude", "catppuccin", "iceberg", "darcula", "monokai", "solarized", "bubblegum", "pink", "void", "sepia", "blueberry", "poimandres"],
   "repository": {
     "type": "git",
     "url": "https://github.com/selecta-mea/vscode-themes.git"
@@ -60,9 +60,9 @@
         "path": "./monokai-space-gray-theme-dark.json"
       },
       {
-        "label": "Monokai Solarized Light — Polished",
+        "label": "Sepia Sharp Solarized",
         "uiTheme": "vs",
-        "path": "./monokai-solarized-light-theme-light.json"
+        "path": "./sepia-sharp-solarized-theme-light.json"
       },
       {
         "label": "Light Modern (Plus)",
@@ -80,9 +80,19 @@
         "path": "./bubblegum-theme-light.json"
       },
       {
-        "label": "Desert Solarized (Light)",
-        "uiTheme": "vs",
-        "path": "./desert-solarized-light-theme.json"
+        "label": "Void (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./void-theme-dark.json"
+      },
+      {
+        "label": "Blueberry (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./blueberry-theme-dark.json"
+      },
+      {
+        "label": "Dark Modern Pink",
+        "uiTheme": "vs-dark",
+        "path": "./dark-modern-pink-theme-dark.json"
       }
     ]
   }

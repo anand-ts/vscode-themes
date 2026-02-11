@@ -7,6 +7,14 @@
 
 A collection of 14 professionally and passionately designed themes with dark and light variants.
 
+## Update (ver. 3.1.0)
+- New "Blueberry" theme
+- New "Void" theme
+- New "Sepia Sharp Solarized" theme
+- New "Dark Modern Pink" theme
+- Removed "Desert Solarized" in favor of "Sepia Sharp"
+- General theme polishes
+
 ## Code Snippets
 
 ### Bubblegum (Dark) [new theme in ver. 3!]
