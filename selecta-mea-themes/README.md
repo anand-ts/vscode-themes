@@ -41,6 +41,14 @@ After installing the extension, open the Command Palette with `Cmd+Shift+P` on m
 
 Requires Visual Studio Code 1.84.0 or newer.
 
+## Install from Marketplace
+
+Install [Selecta Mea Theme Pack](https://marketplace.visualstudio.com/items?itemName=anand-ts.selecta-mea-themes) from the VS Code Marketplace, or run:
+
+```sh
+code --install-extension anand-ts.selecta-mea-themes
+```
+
 ## Install from VSIX
 
 Download [selecta-mea-themes-3.2.0.vsix](https://github.com/anand-ts/vscode-themes/raw/refs/heads/main/selecta-mea-themes/selecta-mea-themes-3.2.0.vsix). In VS Code, run **Extensions: Install from VSIX...** from the Command Palette and select the downloaded file.

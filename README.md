@@ -94,6 +94,10 @@
 
 ## Installation
 
+Install [Selecta Mea Theme Pack from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=anand-ts.selecta-mea-themes), then run "Preferences: Color Theme" and choose a theme from the pack.
+
+You can also install the packaged release manually:
+
 1. Download [selecta-mea-themes-3.2.0.vsix](./selecta-mea-themes/selecta-mea-themes-3.2.0.vsix)
 2. Open VS Code
 3. Press `Cmd+Shift+P` or `Ctrl+Shift+P`
@@ -103,7 +107,7 @@
 
 ## Distribution
 
-Distributed as a VS Code theme extension with the identifier `selecta-mea.selecta-mea-themes`. The VSIX includes all 17 themes.
+Distributed as a VS Code theme extension with the identifier `anand-ts.selecta-mea-themes`. The VSIX includes all 17 themes.
 
 ## Packaging and publishing
 
@@ -113,7 +117,7 @@ Install the [VS Code extension CLI](https://code.visualstudio.com/api/working-wi
 vsce package --no-dependencies --githubBranch main
 ```
 
-Marketplace publishing requires access to the `selecta-mea` publisher. Configure authentication using the [official publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension), then publish the packaged release from the same directory:
+Marketplace publishing requires access to the `anand-ts` publisher. Configure authentication using the [official publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension), then publish the packaged release from the same directory:
 
 ```sh
 vsce publish --packagePath selecta-mea-themes-3.2.0.vsix

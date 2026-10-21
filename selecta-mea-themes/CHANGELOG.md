@@ -6,6 +6,7 @@
 - Improved the contrast of Coral Citrus's prominent status bar labels, including their hover state.
 - Added extension documentation and release notes to the VSIX.
 - Updated the theme pack's display name, repository links, and Marketplace metadata.
+- Configured the extension to publish as `anand-ts.selecta-mea-themes`.
 - Limited package contents to the themes, extension icon, documentation, and license.
 
 ## 3.1.0
