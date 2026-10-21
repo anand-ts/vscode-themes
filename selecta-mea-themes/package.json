@@ -1,15 +1,25 @@
 {
   "name": "selecta-mea-themes",
-  "displayName": "Selecta Mea Themes",
-  "description": "A curated collection of 16 professionally designed themes with dark and light variants",
+  "displayName": "Selecta Mea Theme Pack",
+  "description": "17 color themes for Visual Studio Code: 11 dark themes and 6 light themes in one pack.",
   "publisher": "selecta-mea",
-  "version": "3.1.0",
+  "version": "3.2.0",
+  "license": "SEE LICENSE IN LICENSE",
   "engines": { "vscode": "^1.84.0" },
   "categories": ["Themes"],
-  "keywords": ["theme", "dark", "light", "chatgpt", "claude", "catppuccin", "iceberg", "darcula", "monokai", "solarized", "bubblegum", "pink", "void", "sepia", "blueberry", "poimandres"],
+  "keywords": ["theme", "theme-pack", "dark", "light", "chatgpt", "claude", "catppuccin", "iceberg", "darcula", "monokai", "solarized", "bubblegum", "pink", "void", "sepia", "blueberry"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/selecta-mea/vscode-themes.git"
+    "url": "https://github.com/anand-ts/vscode-themes.git",
+    "directory": "selecta-mea-themes"
+  },
+  "homepage": "https://github.com/anand-ts/vscode-themes#readme",
+  "bugs": {
+    "url": "https://github.com/anand-ts/vscode-themes/issues"
+  },
+  "galleryBanner": {
+    "color": "#181818",
+    "theme": "dark"
   },
   "icon": "images/SCR-20250930-cmsg.png",
   "contributes": {
@@ -93,6 +103,11 @@
         "label": "Dark Modern Pink",
         "uiTheme": "vs-dark",
         "path": "./dark-modern-pink-theme-dark.json"
+      },
+      {
+        "label": "Coral Citrus (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./coral-citrus-theme-dark.json"
       }
     ]
   }

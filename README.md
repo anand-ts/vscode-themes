@@ -1,13 +1,20 @@
-# Selecta Mea – VS Code Themes Collection
+# Selecta Mea – VS Code Theme Pack
 
 > _Latin: selecta mea — “my selections”._
 
 ![Thumbnail](./public/images/themes-dark.png)
 ![Thumbnail](./public/images/themes-light.png)
 
-A collection of 14 professionally and passionately designed themes with dark and light variants.
+17 color themes bundled in one Visual Studio Code extension, with 11 dark themes and 6 light themes.
+
+## Update (ver. 3.2.0)
+
+- New "Coral Citrus (Dark)" theme
+- Improved contrast for Coral Citrus's prominent status bar labels
+- Added extension documentation, release notes, and Marketplace metadata
 
 ## Update (ver. 3.1.0)
+
 - New "Blueberry" theme
 - New "Void" theme
 - New "Sepia Sharp Solarized" theme
@@ -17,7 +24,7 @@ A collection of 14 professionally and passionately designed themes with dark and
 
 ## Code Snippets
 
-### Bubblegum (Dark) [new theme in ver. 3!]
+### Bubblegum (Dark)
 ![Bubblegum Dark](./public/images/bubblegum-dark.png)
 
 ### Catppuccin Mocha Affogato
@@ -38,7 +45,7 @@ A collection of 14 professionally and passionately designed themes with dark and
 ### Monokai Space Gray — Polished
 ![Monokai Space Gray](./public/images/monokai-space-gray.png)
 
-### Bubblegum (Light) [new theme in ver. 3!]
+### Bubblegum (Light)
 ![Bubblegum Light](./public/images/bubblegum-light.png)
 
 ### ChatGPT Theme (Light)
@@ -47,37 +54,36 @@ A collection of 14 professionally and passionately designed themes with dark and
 ### Claude Theme (Light)
 ![Claude Theme Light](./public/images/claude-theme-light.png)
 
-### Desert Solarized (Light) [new theme in ver. 3!]
-![Desert Solarized Light](./public/images/desert-solarized-light.png)
-
 ### Iceberg Theme (Light)
 ![Iceberg Theme Light](./public/images/iceberg-theme-light.png)
 
 ### Light Modern (Plus)
 ![Light Modern Plus](./public/images/light-modern-plus.png)
 
-### Monokai Solarized Light — Polished
-![Monokai Solarized Light](./public/images/monokai-solarized-light.png)
-
 ## Themes
 
-### Dark (7)
+### Dark (11)
+
+- Blueberry (Dark)
 - Bubblegum (Dark)
 - Catppuccin Mocha Affogato
 - ChatGPT Theme (Dark)
 - Claude Theme (Dark)
+- Coral Citrus (Dark)
 - Darcula
+- Dark Modern Pink
 - Iceberg Theme (Dark)
 - Monokai Space Gray — Polished
+- Void (Dark)
 
-### Light (7)
+### Light (6)
+
 - Bubblegum (Light)
 - ChatGPT Theme (Light)
 - Claude Theme (Light)
-- Desert Solarized (Light)
 - Iceberg Theme (Light)
 - Light Modern (Plus)
-- Monokai Solarized Light — Polished
+- Sepia Sharp Solarized
 
 ## Features
 
@@ -88,15 +94,30 @@ A collection of 14 professionally and passionately designed themes with dark and
 
 ## Installation
 
-1. Download `selecta-mea-themes-3.0.0.vsix`
+1. Download [selecta-mea-themes-3.2.0.vsix](./selecta-mea-themes/selecta-mea-themes-3.2.0.vsix)
 2. Open VS Code
 3. Press `Cmd+Shift+P` or `Ctrl+Shift+P`
 4. Type "Install from VSIX"
 5. Select the downloaded file and reload
+6. Run "Preferences: Color Theme" and choose a theme from the pack
 
 ## Distribution
 
-Distributed as a pre-compiled VSIX package.
+Distributed as a VS Code theme extension with the identifier `selecta-mea.selecta-mea-themes`. The VSIX includes all 17 themes.
+
+## Packaging and publishing
+
+Install the [VS Code extension CLI](https://code.visualstudio.com/api/working-with-extensions/publishing-extension), then run this command from `selecta-mea-themes/` with the local theme JSON files available:
+
+```sh
+vsce package --no-dependencies --githubBranch main
+```
+
+Marketplace publishing requires access to the `selecta-mea` publisher. Configure authentication using the [official publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension), then publish the packaged release from the same directory:
+
+```sh
+vsce publish --packagePath selecta-mea-themes-3.2.0.vsix
+```
 
 ## License
 
@@ -104,4 +125,4 @@ MIT License
 
 ---
 
-Version 3.0.0 (Fall 2025)
+Version 3.2.0
